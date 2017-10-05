@@ -1,2 +1,2 @@
 # optional-chaining
-Partial implementation for Optional Chaining in ES5
+Partial implementation for [Optional Chaining](https://github.com/tc39/proposal-optional-chaining) in ES5

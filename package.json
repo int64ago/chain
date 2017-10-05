@@ -1,0 +1,22 @@
+{
+  "name": "optional-chaining",
+  "version": "0.0.1",
+  "description": "Partial implementation for Optional Chaining in ES5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/int64ago/optional-chaining.git"
+  },
+  "keywords": [
+    "optional-chaining"
+  ],
+  "author": "Cody Chan <int64ago@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int64ago/optional-chaining/issues"
+  },
+  "homepage": "https://github.com/int64ago/optional-chaining#readme"
+}
