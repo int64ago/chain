@@ -4,7 +4,8 @@
   "description": "Partial implementation for Optional Chaining in ES5",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   },
   "homepage": "https://github.com/int64ago/optional-chaining#readme",
   "devDependencies": {
+    "codecov": "^2.3.0",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.0"
   }
 }
