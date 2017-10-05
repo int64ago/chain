@@ -11,8 +11,8 @@
 [download-url]: https://npmjs.org/package/optional-chaining
 [travis-image]: https://img.shields.io/travis/int64ago/optional-chaining.svg?style=flat-square
 [travis-url]: https://travis-ci.org/int64ago/optional-chaining
-[coverage-image]: https://coveralls.io/repos/github/int64ago/optional-chaining/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/int64ago/optional-chaining?branch=master
+[coverage-image]: https://img.shields.io/coveralls/int64ago/optional-chaining.svg?style=flat-square
+[coverage-url]: https://coveralls.io/github/int64ago/optional-chaining
 
 Partial implementation for [Optional Chaining](https://github.com/tc39/proposal-optional-chaining) in ES5
 
