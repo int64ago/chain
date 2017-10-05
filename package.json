@@ -1,14 +1,14 @@
 {
   "name": "optional-chaining",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Partial implementation for Optional Chaining in ES5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/int64ago/optional-chaining.git"
+    "url": "https://github.com/int64ago/optional-chaining.git"
   },
   "keywords": [
     "optional-chaining"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/int64ago/optional-chaining/issues"
   },
-  "homepage": "https://github.com/int64ago/optional-chaining#readme"
+  "homepage": "https://github.com/int64ago/optional-chaining#readme",
+  "devDependencies": {
+    "mocha": "^4.0.0"
+  }
 }
