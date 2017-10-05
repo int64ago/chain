@@ -11,7 +11,8 @@ function parsePropertyString(string) {
   string.replace(propertyRegx, function(m, name, index) {
     if (name) {
       result.push(name);
-    } else if (index) {
+    }
+    if (index) {
       result.push(index / 1);
     }
   });
