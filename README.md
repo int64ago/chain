@@ -1,18 +1,18 @@
-# optional-chaining
+# chain
 
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
 [![Travis][travis-image]][travis-url]
 [![Coverage][coverage-image]][coverage-url]
 
-[npm-image]: https://img.shields.io/npm/v/optional-chaining.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/optional-chaining
-[download-image]: https://img.shields.io/npm/dm/optional-chaining.svg?style=flat-square
-[download-url]: https://npmjs.org/package/optional-chaining
-[travis-image]: https://img.shields.io/travis/int64ago/optional-chaining.svg?style=flat-square
-[travis-url]: https://travis-ci.org/int64ago/optional-chaining
-[coverage-image]: https://img.shields.io/coveralls/int64ago/optional-chaining.svg?style=flat-square
-[coverage-url]: https://coveralls.io/github/int64ago/optional-chaining
+[npm-image]: https://img.shields.io/npm/v/@hspkg/chain.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@hspkg/chain
+[download-image]: https://img.shields.io/npm/dm/@hspkg/chain.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@hspkg/chain
+[travis-image]: https://img.shields.io/travis/int64ago/chain.svg?style=flat-square
+[travis-url]: https://travis-ci.org/int64ago/chain
+[coverage-image]: https://img.shields.io/coveralls/int64ago/chain.svg?style=flat-square
+[coverage-url]: https://coveralls.io/github/int64ago/chain
 
 Partial implementation for [Optional Chaining](https://github.com/tc39/proposal-optional-chaining) in ES5
 
@@ -24,10 +24,10 @@ var chain: (sourceObject: object, propertyString: string, defaultValue: any) => 
 
 ## Examples
 
-`npm i optional-chaining -S`
+`npm i @hspkg/chain -S`
 
 ```js
-var chain = require('optional-chaining');
+var chain = require('@hspkg/chain');
 
 var testObj = {
   code: 200,
