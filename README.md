@@ -42,11 +42,15 @@ var testObj = {
     }
   }
 };
-
+// testObj?.code
 console.log(chain(testObj, '.code')); // 200
+// testObj?.data?.page?.current
 console.log(chain(testObj, '.data.page.current')); // 1
+// testObj?.data?.list?.[0]?.id
 console.log(chain(testObj, '.data.list[0].id')); // 1
+// testObj?.wrong?.path
 console.log(chain(testObj, '.wrong.path')); // undefined
+// testObj?.wrong?.path || 666
 console.log(chain(testObj, '.wrong.path', 666)); // 666
 ```
 
