@@ -9,8 +9,8 @@
 [npm-url]: https://npmjs.org/package/@hspkg/chain
 [download-image]: https://img.shields.io/npm/dm/@hspkg/chain.svg?style=flat-square
 [download-url]: https://npmjs.org/package/@hspkg/chain
-[travis-image]: https://img.shields.io/travis/int64ago/chain.svg?style=flat-square
-[travis-url]: https://travis-ci.org/int64ago/chain
+[travis-image]: https://img.shields.io/travis/com/int64ago/chain.svg?style=flat-square
+[travis-url]: https://travis-ci.com/int64ago/chain
 [coverage-image]: https://img.shields.io/coveralls/int64ago/chain.svg?style=flat-square
 [coverage-url]: https://coveralls.io/github/int64ago/chain
 
